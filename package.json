@@ -1,0 +1,15 @@
+{
+  "name": "vuejs-kenya-extension-pack",
+  "displayName": "VueJs Kenya Extension Pack",
+  "description": "Popular VSCode extensions for Vue and Nuxt development ✨.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "publisher.extensionName"
+  ]
+}
