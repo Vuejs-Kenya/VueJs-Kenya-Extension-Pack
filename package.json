@@ -42,6 +42,6 @@
   "icon": "./src/images/icon.png",
   "scripts": {
     "generate:release": "npx changelogen@latest --release",
-    "deploy": "vsce publish --no-dependencies"
+    "publish:extension": "vsce publish"
   }
 }
