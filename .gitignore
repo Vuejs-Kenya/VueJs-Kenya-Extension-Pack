@@ -2,6 +2,7 @@
 *.vsix
 .vscode-test/**
 **/.DS_Store
+.DS_STORE
 out/**
 node_modules/**
 .npmrc
