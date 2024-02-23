@@ -1,8 +1,10 @@
 .vscode
 *.vsix
 .vscode-test/**
+.DS_Store
+._.DS_Store
 **/.DS_Store
-.DS_STORE
+**/._.DS_Store
 out/**
 node_modules/**
 .npmrc
