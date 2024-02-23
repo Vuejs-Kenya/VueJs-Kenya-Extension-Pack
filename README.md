@@ -20,6 +20,7 @@ Popular VSCode extensions for Vue and Nuxt development ✨.
 - [Shadcn Vue](https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue) - Integrate components and snippets from Shadcn/Vue directly into your IDE.
 - [Preview Docs](https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-preview-docs) - Preview language and framework documentations within your IDE ✨.
 - [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Visual Studio Code plugin that autocompletes npm modules in import statements.
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - Make TypeScript errors prettier and more human-readable in VSCode
 
 ### How to contribute?
 

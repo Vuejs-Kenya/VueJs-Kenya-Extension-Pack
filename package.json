@@ -29,7 +29,8 @@
     "nuxt.mdc",
     "selemondev.shadcn-vue",
     "selemondev.vscode-preview-docs",
-    "christian-kohler.npm-intellisense"
+    "christian-kohler.npm-intellisense",
+    "yoavbls.pretty-ts-errors"
   ],
   "keywords": [
     "extension pack",
