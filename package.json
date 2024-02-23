@@ -3,13 +3,45 @@
   "displayName": "VueJs Kenya Extension Pack",
   "description": "Popular VSCode extensions for Vue and Nuxt development ✨.",
   "version": "0.0.1",
+  "publisher": "Selemondev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VueJs-Kenya/VueJs-Kenya-Extension-Pack"
+  },
+  "bugs": {
+    "url": "https://github.com/VueJs-Kenya/VueJs-Kenya-Extension-Pack/issues",
+    "email": "selemonsrdev@gmail.com"
+  },
   "engines": {
-    "vscode": "^1.86.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
-    "publisher.extensionName"
-  ]
+  "extensionPack": [
+    "antfu.vite",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "rendiokriza.vue-3-code-snippets",
+    "vitest.explorer",
+    "dbaeumer.vscode-eslint",
+    "nuxtr.nuxtr-vscode",
+    "nuxt.mdc",
+    "selemondev.shadcn-vue",
+    "selemondev.vscode-preview-docs",
+    "christian-kohler.npm-intellisense"
+  ],
+  "keywords": [
+    "extension pack",
+    "vscode-extension-pack",
+    "vuejs-extension-pack",
+    "vuejs",
+    "nuxt",
+    "vuejs-vscode-extension-pack"
+  ],
+  "icon": "./src/images/icon.png",
+  "scripts": {
+    "generate:release": "npx changelogen@latest --release",
+    "deploy": "vsce publish --no-dependencies"
+  }
 }
